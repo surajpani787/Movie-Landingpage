@@ -1,0 +1,689 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body class="bg-dark">
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Movie-Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                GENER
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Adventure</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Bollywood</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Drama</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">SCI-FI</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Romantic</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Fantacy</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Horror</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Anime</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Kids</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                TYPES
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Movies</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">TV series</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Amazon Orignals</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Kids</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                MORE
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">SCHEDULED</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">NEWEST</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">REQUEST</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">UPDATE</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">ONGOING</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./image/1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="/image/2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="mt-5 p-5">
+        <div class="row row-cols-1 row-cols-md-5 g-4 text-center">
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card22.jpg" class="card-img-top h-50 W-40" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card21.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Kotha</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Kotha</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card9.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Kotha</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card10.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card11.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card12.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card13.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card14.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card15.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card16.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card17.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card18.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card19.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card20.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card22.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card21.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Kotha</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card9.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card10.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card11.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card12.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card13.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card14.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card15.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card16.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card17.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card18.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card19.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card20.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card14.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card15.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="./image/card16.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <button type="button" class="btn btn-primary w-100">Watch-NOW</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="p-5 ">
+        <p class="text-white fw-bold">A-Z || Searching anime order by alphabet name A to Z.</p>
+        <div>
+            <button class="btn btn-secondary m-2">ALL</button>
+            <button class="btn btn-secondary m-2">A-Z</button>
+            <button class="btn btn-secondary m-2">0-9</button>
+            <button class="btn btn-secondary m-2">A</button>
+            <button class="btn btn-secondary m-2">B</button>
+            <button class="btn btn-secondary m-2">C</button>
+            <button class="btn btn-secondary m-2">D</button>
+            <button class="btn btn-secondary m-2">E</button>
+            <button class="btn btn-secondary m-2">F</button>
+            <button class="btn btn-secondary m-2">G</button>
+            <button class="btn btn-secondary m-2">H</button>
+            <button class="btn btn-secondary m-2">I</button>
+            <button class="btn btn-secondary m-2">J</button>
+            <button class="btn btn-secondary m-2">K</button>
+            <button class="btn btn-secondary m-2">L</button>
+            <button class="btn btn-secondary m-2">M</button>
+            <button class="btn btn-secondary m-2">N</button>
+            <button class="btn btn-secondary m-2">O</button>
+            <button class="btn btn-secondary m-2">P</button>
+            <button class="btn btn-secondary m-2">Q</button>
+            <button class="btn btn-secondary m-2">R</button>
+            <button class="btn btn-secondary m-2">S</button>
+            <button class="btn btn-secondary m-2">T</button>
+            <button class="btn btn-secondary m-2">U</button>
+            <button class="btn btn-secondary m-2">V</button>
+            <button class="btn btn-secondary">W</button>
+            <button class="btn btn-secondary m-2">X</button>
+            <button class="btn btn-secondary m-2">Y</button>
+            <button class="btn btn-secondary m-2">Z</button>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-black text-white">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="" class="me-4 text-decoration-none">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-decoration-none">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-decoration-none">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-decoration-none">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-decoration-none">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-decoration-none">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5 align-items-center">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Movie-Home
+                        </h6>
+                        <p>
+                            Filmzoo is your ultimate destination for the latest in technology.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset text-decoration-none">HOME</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset text-decoration-none">GENER</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset text-decoration-none">TYPES</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset text-decoration-none">MORE</a>
+                        </p>
+
+                    </div>
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            info@example.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                        <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <hr>
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Movie-Home.</a>
+            All Rights Reserved.
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+</body>
+
+</html>
